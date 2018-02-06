@@ -1,0 +1,118 @@
+#----------------------------------------------------------------------------
+# Ignore these files when commiting to a git repository
+#
+# The original version of this file is found here:
+# https://github.com/RailsApps/rails3-application-templates/raw/master/files/gitignore.txt
+#
+# Corrections? Improvements? Create a GitHub issue:
+# http://github.com/RailsApps/rails3-application-templates/issues
+#----------------------------------------------------------------------------
+
+# bundler state
+/.bundle
+/vendor/bundle/
+
+# minimal Rails specific artifacts
+db/*.sqlite3
+/log/*
+/tmp/*
+mongo.log
+/bin
+
+# various artifacts
+/jenkins
+/exports
+/cert
+**.war
+*.rbc
+*.sassc
+.redcar/
+.sass-cache
+*.rdb
+*~
+emails.txt
+/config/config.yml
+/config/database.yml
+/config/dev_settings.yml
+/coverage.data
+/coverage/
+/db/*.javadb/
+/db/*.sqlite3-journal
+/doc
+/doc/api/
+/doc/app/
+/doc/features.html
+/doc/specs.html
+/public/cache
+/public/system
+/public/javascripts/translations.js
+/spec/tmp/*
+/cache
+/capybara*
+/capybara-*.html
+/gems
+/rerun.txt
+/specifications
+/node_modules
+bootstrap
+
+# scm revert files
+**.orig
+
+# Mac finder artifacts
+.DS_Store
+
+# Netbeans project directory
+/nbproject/
+
+# Textmate project files
+/*.tmpproj
+
+# vim artifacts
+**.swp
+
+# keep OmniAuth service provider secrets out of the Git repo
+config/initializers/omniauth.rb
+
+# rvmrc configuration file
+.rvmrc
+
+# documentation files
+/.yardoc
+/doc
+/coverage
+heroku
+*.sublime-project
+*.sublime-workspace
+/help
+
+.jshintrc
+npm-debug.log
+yarn-error.log
+node_modules
+junit.xml
+rspec.xml
+
+# rbenv
+.rbenv-version
+
+# testing
+sauce_connect.*
+
+# analysis files
+/analysis/*
+
+.idea
+
+.chef
+
+# remote selenium tunnel JAR files
+/spec/support/selenium/remote/*.jar
+/spec/support/selenium/remote/*.zip
+
+# Ignore ctags index file
+tags
+
+# webpack
+webpack-stats.json
+/public/webpack
