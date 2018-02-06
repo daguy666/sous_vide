@@ -1,0 +1,6 @@
+app/assets/javascripts
+webpack/assets/javascripts/vendor
+webpack/assets/javascripts/platform/stores/checkpoints/testers
+webpack/assets/javascripts/libs/patch/patch.js
+webpack/assets/javascripts/platform/env/js_runner
+gulpfile.js
